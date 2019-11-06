@@ -11,7 +11,10 @@ function popula () {
   for(let i = 0; i <8; i++){
     tabuleiro += "<tr>";
       for(let j = 0; j <8; j++){
-        tabuleiro += `<td>${letras[i+1]}${j+1}</td>`;
+        if(j % 2 != 0)
+          tabuleiro += `<td>${letras[i+1]}${j+1}</td>`;
+        else
+          tabuleiro += `<td class="branco">${letras[i+1]}${j+1}</td>`;
     }
   tabuleiro += "</tr>";
   }

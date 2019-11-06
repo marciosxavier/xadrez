@@ -1,3 +1,12 @@
-h1, h2 {
-  font-family: Lato;
+table td{
+  cursor: pointer;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+  background: #333f49;
+}
+
+.branco{
+  background: #FFF;
 }
